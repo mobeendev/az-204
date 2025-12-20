@@ -27,7 +27,7 @@ await DisplayAllCourses();
 
 CosmosClient ConnectDatabase()
 {
-    string connectionString = "testAPIKEY";
+    string connectionString = "AccountEndpoint=https://mobeendev.documents.azure.com:443/;AccountKey=iaMeZqrqgoAHeQB1SyeZkKZQR9gwXe7m1KrLIT3lDXjTDkfZgeF0yPRXqcBQlh48TGGEh2OlL3jjACDbZeMwkA==;";
     return new CosmosClient(connectionString);
 
 }
