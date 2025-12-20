@@ -27,7 +27,7 @@ await DisplayAllCourses();
 
 CosmosClient ConnectDatabase()
 {
-    string connectionString = "AccountEndpoint=https://mobeendev.documents.azure.com:443/;AccountKey=iaMeZqrqgoAHeQB1SyeZkKZQR9gwXe7m1KrLIT3lDXjTDkfZgeF0yPRXqcBQlh48TGGEh2OlL3jjACDbZeMwkA==;";
+    string connectionString = "testing..";
     return new CosmosClient(connectionString);
 
 }
@@ -35,8 +35,8 @@ CosmosClient ConnectDatabase()
 async Task CreateCourse(Course course)
 {
     CosmosClient cosmosClient = ConnectDatabase();
-    string databaseId = "appdb";
-    string containerId = "courses";
+    string databaseId = " ";
+    string containerId = " ";
 
     Database database = cosmosClient.GetDatabase(databaseId);
     Container container = database.GetContainer(containerId);
@@ -48,8 +48,8 @@ async Task CreateCourse(Course course)
 async Task DisplayAllCourses()
 {
     QueryDefinition queryDefinition = new QueryDefinition("SELECT * FROM courses c");
-    string databaseId = "appdb";
-    string containerId = "courses";
+    string databaseId = "";
+    string containerId = "";
     CosmosClient client = ConnectDatabase();
     Database database = client.GetDatabase(databaseId);
     Container container = database.GetContainer(containerId);
@@ -87,5 +87,7 @@ async Task DisplayAllCourses()
             }
         }
     }
+
+
 
 }

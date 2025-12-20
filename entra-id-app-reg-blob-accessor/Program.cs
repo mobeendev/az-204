@@ -7,9 +7,9 @@ string path = @"./test.pdf";
 
 Console.WriteLine("started");
 
-string tenantId = "38dbefc3-d57f-4955-b62c-1406e16a4ea8";
-string clientId = "72ee1803-08cf-4c19-a334-8405e09a242c";
-string secret = "ywo8Q~iDGv1b1.Uk_CkXbLUw2G4YNLbWUo5s4b1T";
+string tenantId = "";
+string clientId = "";
+string secret = "";
 string storageAccountName = "appstore55455344243";
 
 
