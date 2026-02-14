@@ -3,13 +3,13 @@ using Azure.Storage.Queues;
 using Azure.Storage.Queues.Models;
 
 string queueName = "appqueue";
-string connectionString = "connectionstring";
+string connectionString = "";
 
-// for (int i = 0; i < 5; i++)
-//     await AddMessage($"Test Message {i}");
+for (int i = 0; i < 5; i++)
+    await AddMessage($"Test Message {i}");
 
 // await PeekMessage(2);
-await ReceiveMessage(7);
+// await ReceiveMessage(7);
 // GetQueueLength();
 
 async Task AddMessage(string message)

@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "entra-id-app-reg-blob-accessor", "entra-id-app-reg-blob-accessor\entra-id-app-reg-blob-accessor.csproj", "{414684E2-8D7A-2003-BADE-7813D226183E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "entra-id-web-auth", "entra-id-web-auth\entra-id-web-auth.csproj", "{4D70CF61-768A-703A-BD10-AA138C454F65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cosmos-db-demo-app", "cosmos-db-demo-app\cosmos-db-demo-app.csproj", "{C75DD509-3F3C-50EC-047E-9D1F6EC080EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "entra-id-app-registration-keyvault", "entra-id-app-registration-keyvault\entra-id-app-registration-keyvault.csproj", "{E4AFBF8C-BFAA-BC20-69A4-86996B583387}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{414684E2-8D7A-2003-BADE-7813D226183E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{414684E2-8D7A-2003-BADE-7813D226183E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{414684E2-8D7A-2003-BADE-7813D226183E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{414684E2-8D7A-2003-BADE-7813D226183E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D70CF61-768A-703A-BD10-AA138C454F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D70CF61-768A-703A-BD10-AA138C454F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D70CF61-768A-703A-BD10-AA138C454F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D70CF61-768A-703A-BD10-AA138C454F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C75DD509-3F3C-50EC-047E-9D1F6EC080EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C75DD509-3F3C-50EC-047E-9D1F6EC080EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C75DD509-3F3C-50EC-047E-9D1F6EC080EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C75DD509-3F3C-50EC-047E-9D1F6EC080EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4AFBF8C-BFAA-BC20-69A4-86996B583387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4AFBF8C-BFAA-BC20-69A4-86996B583387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4AFBF8C-BFAA-BC20-69A4-86996B583387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4AFBF8C-BFAA-BC20-69A4-86996B583387}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76476358-BA01-49E6-9959-9553D6E05C4E}
+	EndGlobalSection
+EndGlobal

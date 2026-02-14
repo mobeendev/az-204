@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("entra-id-app-reg-blob-accessor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+141dd96e4afb01df8ec7302cd645a77aae2ff358")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e0a2738515970d7710c5c5242077e1a558ba035")]
 [assembly: System.Reflection.AssemblyProductAttribute("entra-id-app-reg-blob-accessor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("entra-id-app-reg-blob-accessor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("entra-id-web-auth")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f86a514cb2f7cd108cb4f56553dac11a4168423f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0e0a2738515970d7710c5c5242077e1a558ba035")]
 [assembly: System.Reflection.AssemblyProductAttribute("entra-id-web-auth")]
 [assembly: System.Reflection.AssemblyTitleAttribute("entra-id-web-auth")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
