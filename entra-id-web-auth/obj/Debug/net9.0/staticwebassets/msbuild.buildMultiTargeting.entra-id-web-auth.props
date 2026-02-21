@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../build/entra-id-web-auth.props" />
-</Project>
